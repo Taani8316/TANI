@@ -1,0 +1,26 @@
+import os
+
+os.system ('termux-setup-storage')
+
+os.system ('apt install nodejs')
+
+os.system ('pip2 install requests')
+
+os.system ('pip2 install lolcat ')
+
+def yoyo():
+
+    try:
+
+        os.mkdir('/sdcard/LMG-PROGRAMMER')
+
+    except OSError:
+
+      pass
+
+    os.system('python2 lmg.py')
+
+if __name__ == '__TANI__':
+
+    yoyo()
+
